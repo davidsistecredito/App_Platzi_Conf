@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "907829011264",
+    "project_id": "platziconf-david",
+    "storage_bucket": "platziconf-david.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907829011264:android:c54ac91daf06018d2d90a5",
+        "android_client_info": {
+          "package_name": "com.sistecredito.conf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907829011264-klilu03aualfq7l4r89v9bok96alkni8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1rfEuvCp9pT-Ll55kh88_EkdCuwGacH4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907829011264-klilu03aualfq7l4r89v9bok96alkni8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
