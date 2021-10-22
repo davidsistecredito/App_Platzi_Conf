@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/navHomeFragmment"
-        android:name="com.sistecredito.conf.ui.fragments.HomeFragment"
+        android:name="com.sistecredito.conf.view.ui.fragments.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/navScheduleFragment"
-        android:name="com.sistecredito.conf.ui.fragments.ScheduleFragment"
+        android:name="com.sistecredito.conf.view.ui.fragments.ScheduleFragment"
         android:label="fragment_shedule"
         tools:layout="@layout/fragment_shedule" >
         <action
@@ -29,14 +29,14 @@
 
     <dialog
         android:id="@+id/scheduleDetailFragmentDialog"
-        android:name="com.sistecredito.conf.ui.fragments.SpeakersDetailDialogFragment"
+        android:name="com.sistecredito.conf.view.ui.fragments.SpeakersDetailDialogFragment"
         android:label="ScheduleDetailFragmentDialog"
         tools:layout="@layout/fragment_schedule_detail_dialog"/>
 
 
     <fragment
         android:id="@+id/navSpeakerFragment"
-        android:name="com.sistecredito.conf.ui.fragments.SpeakersFragment"
+        android:name="com.sistecredito.conf.view.ui.fragments.SpeakersFragment"
         android:label="fragment_speakers"
         tools:layout="@layout/fragment_speakers" >
         <action
@@ -49,13 +49,13 @@
 
     <dialog
         android:id="@+id/speakerDetailFragmentDialog"
-        android:name="com.sistecredito.conf.ui.fragments.SpeakersDetailDialogFragment"
+        android:name="com.sistecredito.conf.view.ui.fragments.SpeakersDetailDialogFragment"
         android:label="SpeakerDetailFragmentDialog"
         tools:layout="@layout/fragment_speakers_detail_dialog"/>
 
     <fragment
         android:id="@+id/navMapFragment"
-        android:name="com.sistecredito.conf.ui.fragments.UbicationFragment"
+        android:name="com.sistecredito.conf.view.ui.fragments.UbicationFragment"
         android:label="fragment_ubication"
         tools:layout="@layout/fragment_ubication" >
         <action
@@ -64,7 +64,7 @@
     </fragment>
     <dialog
         android:id="@+id/ubicationDetailFragmentDialog"
-        android:name="com.sistecredito.conf.ui.fragments.SpeakersDetailDialogFragment"
+        android:name="com.sistecredito.conf.view.ui.fragments.SpeakersDetailDialogFragment"
         android:label="UbicationDetailFragmentDialog"
         tools:layout="@layout/fragment_ubication_detail_dialog"/>
 

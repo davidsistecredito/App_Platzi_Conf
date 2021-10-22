@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PlatziConf">
         <activity
-            android:name=".ui.activities.splashScreenActivity"
+            android:name="com.sistecredito.conf.view.ui.activities.splashScreenActivity"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".view.ui.activities.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

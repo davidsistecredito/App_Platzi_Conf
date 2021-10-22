@@ -1,4 +1,4 @@
-package com.sistecredito.conf.ui.activities
+package com.sistecredito.conf.view.ui.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

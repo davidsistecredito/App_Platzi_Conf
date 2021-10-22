@@ -1,13 +1,8 @@
-package com.sistecredito.conf
+package com.sistecredito.conf.view.ui.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.google.firebase.firestore.FirebaseFirestore
-import com.sistecredito.conf.model.Conference
-import com.sistecredito.conf.model.Speaker
-import org.json.JSONArray
-import org.json.JSONObject
-import java.util.*
+import com.sistecredito.conf.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -1,4 +1,4 @@
-package com.sistecredito.conf.ui.fragments
+package com.sistecredito.conf.view.ui.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
