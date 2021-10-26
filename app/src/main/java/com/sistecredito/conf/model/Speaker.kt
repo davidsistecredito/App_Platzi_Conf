@@ -1,6 +1,8 @@
 package com.sistecredito.conf.model
 
-class Speaker {
+import java.io.Serializable
+
+class Speaker: Serializable {
     var name = ""
     var jobtitle = ""
     var workplace = ""

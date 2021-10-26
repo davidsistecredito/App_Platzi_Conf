@@ -1,6 +1,6 @@
 package com.sistecredito.conf.view.adapter
 
-import android.telecom.Conference
+import com.sistecredito.conf.model.Conference
 
 interface ScheduleListener {
     fun onConferenceClicked(conference: Conference, position: Int)
